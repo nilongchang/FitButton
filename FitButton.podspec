@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FitButton'
   s.version          = '1.0.1'
-  s.summary          = 'A short description of FitButton.'
+  s.summary          = '更改图片和文字位置, 灵活设置间距,自动计算宽高'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FitButton/Classes/**/*'
   
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'FitButton' => ['FitButton/Assets/*.png']
   # }
