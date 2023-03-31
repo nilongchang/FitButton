@@ -19,7 +19,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FitButton'
 ```
-image.png
         let button = FitButton(type: .custom)
         // 设置图片和文字的间距
         button.spacing = 10
