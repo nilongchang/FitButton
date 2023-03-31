@@ -19,7 +19,21 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FitButton'
 ```
-
+image.png
+        let button = FitButton(type: .custom)
+        // 设置图片和文字的间距
+        button.spacing = 10
+        // 设置图片位置
+        button.imagePosition = .bottom
+        // 设置内边距(非必须)
+        button.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        
+        // 正常UIButton的设置
+        button.setTitle("FitButton", for: .normal)
+        button.setTitleColor(UIColor.black, for: .normal)
+        button.setImage(UIImage(named: "read"), for: .normal)
+        button.layer.borderWidth = 1
+        button.layer.borderColor = UIColor.black.cgColor
 ## Author
 
 倪龙昌, 396183258@qq.com

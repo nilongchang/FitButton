@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let button = FitButton(type: .custom)
         // 设置图片和文字的间距
         button.spacing = 10
