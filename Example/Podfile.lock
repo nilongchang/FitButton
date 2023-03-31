@@ -1,0 +1,23 @@
+PODS:
+  - FitButton (0.1.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - FitButton (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  FitButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FitButton: 6c6bc34f45fad02cb5a650ef08ea7c0b2380d4ab
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: fe4f8a187efb3a9c75c9367445d1f24cf6e39edd
+
+COCOAPODS: 1.11.3

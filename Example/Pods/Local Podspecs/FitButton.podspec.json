@@ -1,0 +1,22 @@
+{
+  "name": "FitButton",
+  "version": "0.1.0",
+  "summary": "A short description of FitButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/倪龙昌/FitButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "倪龙昌": "396183258@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/倪龙昌/FitButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FitButton/Classes/**/*"
+}

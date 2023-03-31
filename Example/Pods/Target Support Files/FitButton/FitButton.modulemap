@@ -1,0 +1,6 @@
+framework module FitButton {
+  umbrella header "FitButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
