@@ -33,9 +33,6 @@ pod 'FitButton'
         button.setImage(UIImage(named: "read"), for: .normal)
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.black.cgColor
-## Author
-
-倪龙昌, 396183258@qq.com
 
 ## License
 
