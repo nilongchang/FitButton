@@ -82,7 +82,6 @@ public class FitButton: UIButton {
             height = spacing + imageSize.height + titleSize.height + VerticalValue(inset: contentEdgeInsets)
         }
         let newSize = CGSize(width: width, height: height)
-        print("intrinsicContentSize: \(originalSize) \(newSize)")
         return newSize
     }
    

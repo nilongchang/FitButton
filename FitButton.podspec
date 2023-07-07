@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FitButton'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '更改图片和文字位置, 灵活设置间距,自动计算宽高'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'nilongchang' => '396183258@qq.com' }
   s.source           = { :git => 'https://github.com/nilongchang/FitButton.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'FitButton/Classes/**/*'
   
