@@ -19,34 +19,15 @@ public class FitButton: UIButton {
         case bottom
     }
     
+    /// 图片大小
+    public var imageSize: CGSize?
     /// 图片位置
     public var imagePosition: ButtonImagePostion = .left
-    
     /// 图片和文字的间距
     public var spacing: CGFloat = 0
-    
+
     private var titleSize: CGSize?
-    
-    public override var titleEdgeInsets: UIEdgeInsets {
-        set {
-            
-        }
-        
-        get {
-            .zero
-        }
-    }
-    
-    public override var imageEdgeInsets: UIEdgeInsets {
-        set {
-            
-        }
-        
-        get {
-            .zero
-        }
-    }
-    
+
     public override func sizeThatFits(_ size: CGSize) -> CGSize {
         let originalSize = super.sizeThatFits(size)
         var width: CGFloat = originalSize.width
@@ -338,7 +319,7 @@ public class FitButton: UIButton {
     /// 当前图片size
     /// - Returns: CGSize
     private func currentImageSize() -> CGSize {
-        return currentImage?.size ?? CGSize.zero
+        return imageSize ?? currentImage?.size ?? CGSize.zero
     }
     
     private func currentTitleSize() -> CGSize {

@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         button.spacing = 10
         // 设置图片位置
         button.imagePosition = .bottom
+        // 设置图片大小
+        button.imageSize = CGSize(width: 40, height: 40)
         // 设置内边距(非必须)
         button.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         
@@ -29,10 +31,14 @@ class ViewController: UIViewController {
         button.setImage(UIImage(named: "read"), for: .normal)
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.black.cgColor
+
         view.addSubview(button)
+        
+        //        button.sizeToFit()
+        //        button.frame.origin = CGPoint(x: 100, y: 100)
         button.snp.makeConstraints {
-            $0.centerX.equalToSuperview()
-            $0.centerY.equalToSuperview()
+            $0.center.equalToSuperview()
+//            $0.width.height.equalTo(100)
         }
     }
 
