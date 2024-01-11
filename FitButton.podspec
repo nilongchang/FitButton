@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FitButton'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = '更改图片和文字位置, 设置图片的大小, 灵活设置间距,自动计算宽高'
 
 # This description is used to generate tags and improve search results.
