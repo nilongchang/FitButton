@@ -10,7 +10,7 @@ import Foundation
 import CommonCrypto
 
 /// 设置image和label的位置,自动计算宽高
-public class FitButton: UIButton {
+open class FitButton: UIButton {
     
     public enum ButtonImagePostion {
         case left  // 默认
