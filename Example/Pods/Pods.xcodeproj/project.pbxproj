@@ -32,7 +32,7 @@
 		5D36B99F3CAB1FC7337082D9581FECA6 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */; };
 		604D3C93C17978C23600EC415949AB64 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D52A60BF41010F680313572B051598 /* ConstraintInsets.swift */; };
 		611CEF7FF1EF9EA1BCEF6C73EEE3ACCF /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */; };
-		6617F0942B4FEEA200053FDB /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6617F0932B4FEEA200053FDB /* GradientButton.swift */; };
+		6617F09B2B50010100053FDB /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6617F09A2B50010100053FDB /* GradientButton.swift */; };
 		69DE75BA185BBAB5FDAA28321F3C849F /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */; };
 		6AC1B881BB319C89AD023A02CDC8FC3D /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */; };
 		6EAC8B6FA2D115DE708A58C601DD25E1 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */; };
@@ -102,7 +102,7 @@
 		583BBF75085D255E27A5F9EF9EC203A5 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
 		5F2DCDFF2011C08759407B4E2038CA11 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		5F492082F342BC4E6257E1B15C7F728A /* FitButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FitButton.release.xcconfig; sourceTree = "<group>"; };
-		6617F0932B4FEEA200053FDB /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		6617F09A2B50010100053FDB /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientButton.swift; path = FitButton/Classes/GradientButton.swift; sourceTree = "<group>"; };
 		6FA449E9274A64C875A041B73F85AF24 /* Pods-FitButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitButton_Example-dummy.m"; sourceTree = "<group>"; };
 		7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -217,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				1DC1CF30262F839B1E2D4965A9B8CD5E /* FitButton.swift */,
-				6617F0932B4FEEA200053FDB /* GradientButton.swift */,
+				6617F09A2B50010100053FDB /* GradientButton.swift */,
 				A88E5B33651EE22961758F5E861B67F1 /* Pod */,
 				3A0C784D135E68C023D2720C4576557C /* Support Files */,
 			);
@@ -549,7 +549,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84ADBEDE113E63038271F91A4E50F0B1 /* FitButton.swift in Sources */,
-				6617F0942B4FEEA200053FDB /* GradientButton.swift in Sources */,
+				6617F09B2B50010100053FDB /* GradientButton.swift in Sources */,
 				31CAD2EB0FBA1856EFB5381F17A0FA04 /* FitButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
